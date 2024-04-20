@@ -1,0 +1,1 @@
+Tailwind is an utility framework using which we can style the webpage in speed with predefined classes.
