@@ -16,3 +16,27 @@
     background-repeat: no-repeat;
     background-position: bottom 1rem right;
 }
+
+.moveImage
+{
+    animation: 10s infinite linear moveCompany;
+}
+
+@keyframes moveCompany {
+    0%{
+        top: 0;
+    }
+    100%
+    {
+        top: -50%
+    }
+}
+
+.gradientTop
+{
+    background: linear-gradient(180deg, #f3f8ff, #fff0);
+}
+.gradientBottom
+{
+    background: linear-gradient(0deg, #f3f8ff, #fff0);
+}

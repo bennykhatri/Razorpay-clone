@@ -549,7 +549,7 @@
             <!--Card 1-->
             <div class="p-10 bg-[url(./imags/instant-settlement-bg.svg)] w-full max-h-[300px] cursor-pointer
             bg-no-repeat hover:scale-105 transition-all duration-all hover:bg-[url(./images/instant-settlement-bghover.svg)]">
-                <img src=".images/razorpayXicon.svg" loading="lazy" class="w-10 h-10" alt="">
+                <img src="./images/razorpayXicon.svg" loading="lazy" class="w-10 h-10" alt="">
                 <h3 class="font-mullish text-lg font-bold pt-4"> Corporate Cards</h3>
                 <p class="font-mullish text-gray-500 py-3 leading-normal">Simplify your recurring, international and team expenses with savings on every spend. Save upto 10 lacs every month.</p>
                 <div class="flex flex-row items-center cursor-pointer group">
@@ -611,13 +611,13 @@
     </section>
 
     <!--Feature Section 4-->
-    <section class="bg-[url(./images/core-features-sectionBG.svg)] bg-no-repeat bg-cover pt-[13rem] pb-[13rem]">
+    <section class="bg-[url(./images/core-features-sectionBG.svg)] w-full bg-no-repeat bg-cover pt-[13rem] pb-[13rem]">
         <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4 mt-10">
             <h2 class="text-white font-mullish font-bold text-2xl leading-[3.375rem] opacity-90 text-center">
                 Features
             </h2>
             <div class="w-6 h-1 bg-[#61cea6] mx-auto mt-2 mb-6"></div>
-            <p class="font-mullish text-center max-w-[450px] text-white mx-auto opacity-90">
+            <p class="font-mullish text-center max-w-[450px] text-white mx-auto opacity-90 text-center">
                 Empower your business with all the right tools to accept online payments and provide the best customer experience
             </p>
 
@@ -673,6 +673,75 @@
                 </div>
             </div>
         </div>
+    </section>
+    
+    <!--Join Razorpay Section-->
+    <section class="bg-[#f5f8fe] relative pt-40 pb-12 -mt-[200px] -z-[100]">
+        <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4 mt-10 flex flex-row">
+            <!--Left Section-->
+            <div class="flex flex-col justify-center max-w-[580px] w-full]">
+                <h2 class="font-mullish font-bold text-2xl text-deepBlue">Join the 50,00,000+ businessess using Razorpay</h2>
+                <div class="w-6 h-1 bg-[#61cea6] mb-10 my-2"></div>
+                <p class="font-mullish opacity-80">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers</p>
+                <p class="font-mullish mt-6 opacity-80">Focus on your business while we handle the complexities of payments for you.</p>
+            </div>
+            <!--Right Section-->
+            <div class="h-[500px] w-[500px] relative overflow-y-hidden">
+                <div class="gradientTop absolute w-full h-[150px] top-0 z-50"></div>
+                <img src="./images/comanies.png" class="absolute h-auto object-cover moveImage" loading="lazy" alt="">
+                <div class="gradientBottom absolute w-full h-[150px] bottom-0 z-50"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonial Section-->
+    <section class="relative">
+        <div class="w-11/12 max-w-[1300px] mx-auto relative py-20">
+            <img class="absolute w-[200px] top-[8rem] left-[2rem] -z-10" src="./images/feature-section1-dottedrows.png" alt="">
+            <h2 class="font-mullish text-center font-bold text-2xl">An Experience <br> People Love to Talk About
+            </h2>
+            <div class="w-6 h-1 bg-[#61cea6] mx-auto mt-4 tracking-normal"></div>
+        <!--Left Button-->
+        <button class="absolute rounded-full w-[100px] h-[100px] bg-[#f4f8ff] left-0 top-1/2 flex justify-center items-center">
+            <div class="w-[65%] h-[65%] bg=[#f4f9ff] rounded-full flex justify-center items-center mix-blend-multiply">
+                <i data-feather="chevron-left" class="stroke-[5px] w-6 h-6 text-gray-400"></i>
+            </div>
+        </button>
+
+        <!--Right Button-->
+        <button class="absolute rounded-full w-[100px] h-[100px] bg-[#f4f8ff] right-0 top-1/2 flex justify-center items-center">
+            <div class="w-[65%] h-[65%] bg=[#f4f9ff] rounded-full flex justify-center items-center mix-blend-multiply">
+                <i data-feather="chevron-right" class="stroke-[5px] w-6 h-6 text-gray-400"></i>
+            </div>
+        </button>
+
+        <!--Main Content-->
+        <div class="flex flex-row max-w-[960px] items-center mx-auto my-20 justify-around space-x-[10rem]">
+            <!--Left Part-->
+            <img class="rounded-xl" height="320px" width="320px" src="./images/testimonial.jpg" loading="lazy" alt="">
+
+            <!--Right Part-->
+            <div class="max-w-[400px]">
+                <img class="-mb-2" src="./images/quotes.svg" width="35px" height="40px" loading="lazy" alt="">
+                <p class="font-mullish text-3xl font-extralight opacity-90">Readymade Closed Wallet Solution For Quick Refunds</p>
+                <a class="text-gray-500 italic underline" href="">Learn More</a>
+                <p class="font-mullish font-extrabold text-2xl">Lorem Ipsum </p>
+                <p class="font-mullish font-medium">CEO, XYZ Engineering Company</p>
+                <img src="./images/fake-company-logo.png" width="80px" height="40px" loading="lazy" alt="">
+            </div>
+        </div>
+
+        <!--Pagination-->
+        <div class="flex flex-row justify-center space-x-2">
+            <div class="h-[10px] w-[10px] bg-gray-300 rounded"></div>
+            <div class="h-[10px] w-[10px] bg-lightBlue300 rounded"></div>
+            <div class="h-[10px] w-[10px] bg-gray-300 rounded"></div>
+            <div class="h-[10px] w-[10px] bg-gray-300 rounded"></div>
+            <div class="h-[10px] w-[10px] bg-gray-300 rounded"></div>
+            <div class="h-[10px] w-[10px] bg-gray-300 rounded"></div>
+            <div class="h-[10px] w-[10px] bg-gray-300 rounded"></div>
+        </div>
+    </div>
     </section>
     <script>
         feather.replace();
